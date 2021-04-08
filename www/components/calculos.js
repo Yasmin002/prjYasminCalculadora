@@ -48,6 +48,6 @@ $(document).on ("click","#igual", function (){
    if (operador == "*"){
      textoDisplay = parseFloat (valor1) *  parseFloat (valor2);
    }
-alert(textoDisplay);
+
   $(".display").val (textoDisplay);
 })
